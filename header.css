@@ -23,6 +23,7 @@
 }
 
 .middle-header{
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex: 1;
     align-items: center;
@@ -31,11 +32,13 @@
 .nav-list{
     list-style: none;
     display: flex;
-    flex: 1;
+    width: 100%;
     gap: 20px;
     padding-left: 18px;
     background-color: rgb(0, 0, 0);
-    
+    flex-wrap: wrap;
+    min-width: 550px;
+
 }
 .nav-list a{
     color: black;
@@ -44,9 +47,29 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: white;
+    
 }
 
 .right-header{
+    display: flex;
     width: 200px;
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.bell-icon{
+    width: 28px;
+}
+
+.search-icon{
+    width: 24px;
+}
+
+.profile-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    border-color: brown;
 }
