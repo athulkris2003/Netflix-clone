@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.Left-header{
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height:70px;
+    display: flex;
+}
+.Netflix-logo{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.middle-header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding-left: 18px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.nav-list a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.right-header{
+    width: 200px;
+    background-color: aquamarine;
+}
